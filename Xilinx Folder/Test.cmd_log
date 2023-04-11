@@ -1,0 +1,465 @@
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "Constraints - Copy.ucf" -p xc6slx9-csg324-2 Test.ngc Test.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_map.ncd Test.ngd Test.pcf 
+par -w -intstyle ise -ol high -mt off Test_map.ncd Test.ncd Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Test.twx Test.ncd -o Test.twr Test.pcf -ucf {Constraints - Copy.ucf} 
+bitgen -intstyle ise -f Test.ut Test.ncd 
+xst -intstyle ise -ifn "G:/Xilinx_ISE/Projects/ClockTest/Test.xst" -ofn "G:/Xilinx_ISE/Projects/ClockTest/Test.syr" 
